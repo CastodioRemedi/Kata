@@ -1,0 +1,84 @@
+@font-face {
+	font-family: "TT Lakes";
+	font-style: normal;
+	font-weight: normal;
+	src: local("TT Lakes"),
+		url("../fonts/TTLakes/TTLakes-Regular.ttf") format("ttf"),
+		url("../fonts/TTLakes/TTLakes-Regular.woff") format("woff"),
+		url("../fonts/TTLakes/TTLakes-Regular.eot") format("eot");
+}
+
+@font-face {
+	font-family: "TT Lakes";
+	font-style: normal;
+	font-weight: bold;
+	src: local("TT Lakes"),
+		url("../fonts/TTLakes/TTLakes-Bold.ttf") format("ttf"),
+		url("../fonts/TTLakes/TTLakes-Bold.woff") format("woff"),
+		url("../fonts/TTLakes/TTLakes-Bold.eot") format("eot");
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-family: "TT Lakes";
+	color: #1B1C21;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	overflow-x: hidden;
+	background-color: #C4C4C4;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
